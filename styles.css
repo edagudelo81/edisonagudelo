@@ -578,9 +578,40 @@ section {
     background: var(--color-bg-alt);
 }
 
+.tech-intro {
+    text-align: center;
+    color: var(--color-text-soft);
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+}
+
 .tech-content {
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.tech-group {
+    margin-bottom: 3rem;
+}
+
+.tech-group-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--color-text-main);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.tech-group-subtitle {
+    font-size: 0.9rem;
+    color: var(--color-text-soft);
+    font-style: italic;
+    margin-bottom: 1.5rem;
 }
 
 .tech-section {
@@ -625,12 +656,7 @@ section {
     font-size: 1rem;
     font-weight: 600;
     color: var(--color-text-main);
-    margin-bottom: 0.5rem;
-}
-
-.tech-card p {
-    font-size: 0.85rem;
-    color: var(--color-text-soft);
+    margin-bottom: 0;
 }
 
 .methodology-list {
@@ -1661,4 +1687,5 @@ section {
 .mb-2 {
     margin-bottom: 2rem;
 }
+
 
